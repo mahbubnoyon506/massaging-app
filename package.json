@@ -4,7 +4,7 @@
   "description": "Anonymous real-time group chat service",
   "main": "dist/main.js",
   "scripts": {
-    "build": "nest build",
+    "build": "tsc -p tsconfig.json",
     "start": "node dist/main.js",
     "start:dev": "nest start --watch",
     "start:debug": "nest start --debug --watch",
